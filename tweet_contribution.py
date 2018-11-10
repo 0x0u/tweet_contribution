@@ -10,6 +10,7 @@ def get_contribution():
 
 def tweet(text):
     consumer_key = 'consumer_key'
+    consumer_secret = 'consumer_secret'
     access_key = 'access_key'
     access_secret = 'access_secret'
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
