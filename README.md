@@ -13,7 +13,7 @@
 
 contributterというwebアプリから着想を得ました :https://github.com/potato4d/contributter<br>
 tweet_contributionを実際に動かしている例: https://twitter.com/qxi_<br>
-githubのConturibution数が見れる: https://github.com/users/0x0v/contributions
+githubのConturibution数が見れる: https://github.com/users/0x0u/contributions
 
 
 
