@@ -13,7 +13,7 @@ TwitterDeveloper: https://developer.twitter.com/en
 ### 1. リポジトリのフォーク
 当リポジトリをフォーク
 ### 2. 環境変数の追加
-Setting > Seacret > Add a new seacret で取得したGithubのIDとTwitterトークンを追加
+Setting > Seacret > Add a new seacret でGithubのIDと取得したTwitterトークンを追加
 ```
 GH_ID: "***********"
 CONSUMER_KEY: "***********"
