@@ -1,8 +1,6 @@
 name: Scheduler
 
-on: 
-  schedule:
-    - cron:  "50 14 * * *"
+on: push
 
 jobs:
   build:
@@ -14,8 +12,9 @@ jobs:
       run: pip3 install -r requirements.txt
       
     - name: run main.py
-      run: python3 main.py 0dl
+      run: python3 main.py
       env:
+        GH_ID: ${{ secrets.GH_ID }}
         CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
         CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
