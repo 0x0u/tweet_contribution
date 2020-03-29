@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
 
 # githubのID
-GH_ID = sys.argv[1]
+GH_ID = os.environ.get("GH_ID")
 
 # Tokens
 CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
