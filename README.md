@@ -7,7 +7,7 @@ GithubActionsのCronJobsを使い毎日定時にGithubのContribution数をツ�
 
 ## Requirement
 以下のURLからTwitterのアクセストークンを取得する  
-TwitterAPI: https://developer.twitter.com/en
+TwitterDeveloper: https://developer.twitter.com/en
 
 ## Usage
 ### 1. リポジトリのフォーク
