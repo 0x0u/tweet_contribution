@@ -10,10 +10,10 @@ GithubActionsのCronJobsを使い毎日定時にGithubのContribution数をツ�
 TwitterDeveloper: https://developer.twitter.com/en
 
 ## Usage
-### 1. リポジトリのフォーク
+### 1. リポジトリをフォーク
 当リポジトリをフォーク
 ### 2. 環境変数の追加
-Setting > Seacret > Add a new seacret でGithubのIDと取得したTwitterトークンを追加
+`Setting > Seacret > Add a new seacret` でGithubのIDと取得したTwitterトークンを追加
 ```
 GH_ID: "***********"
 CONSUMER_KEY: "***********"
