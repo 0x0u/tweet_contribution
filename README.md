@@ -1,4 +1,4 @@
-![Scheduler](https://github.com/0x0u/tweet_contribution/workflows/Scheduler/badge.svg?branch=master)
+![Scheduler](https://github.com/miya/tweet_contribution/workflows/Scheduler/badge.svg?branch=master)
 # tweet_contribution
 GithubActionsのCronJobsを使い毎日定時にGithubのContribution数をツイートするやつ
 
